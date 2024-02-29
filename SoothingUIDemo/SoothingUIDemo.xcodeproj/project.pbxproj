@@ -13,9 +13,6 @@
 		8498584C2B87FD9D00624FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584B2B87FD9D00624FB9 /* Assets.xcassets */; };
 		8498584F2B87FD9D00624FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584E2B87FD9D00624FB9 /* Preview Assets.xcassets */; };
 		849858542B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849858522B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodeld */; };
-		8498585E2B87FD9E00624FB9 /* SoothingUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498585D2B87FD9E00624FB9 /* SoothingUIDemoTests.swift */; };
-		849858682B87FD9E00624FB9 /* SoothingUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858672B87FD9E00624FB9 /* SoothingUIDemoUITests.swift */; };
-		8498586A2B87FD9E00624FB9 /* SoothingUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858692B87FD9E00624FB9 /* SoothingUIDemoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +40,7 @@
 		8498584E2B87FD9D00624FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		849858532B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoothingUIDemo.xcdatamodel; sourceTree = "<group>"; };
 		849858592B87FD9E00624FB9 /* SoothingUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoothingUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8498585D2B87FD9E00624FB9 /* SoothingUIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoTests.swift; sourceTree = "<group>"; };
 		849858632B87FD9E00624FB9 /* SoothingUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoothingUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		849858672B87FD9E00624FB9 /* SoothingUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoUITests.swift; sourceTree = "<group>"; };
-		849858692B87FD9E00624FB9 /* SoothingUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				849858462B87FD9B00624FB9 /* SoothingUIDemo */,
-				8498585C2B87FD9E00624FB9 /* SoothingUIDemoTests */,
-				849858662B87FD9E00624FB9 /* SoothingUIDemoUITests */,
 				849858452B87FD9B00624FB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,23 +105,6 @@
 				8498584E2B87FD9D00624FB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8498585C2B87FD9E00624FB9 /* SoothingUIDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8498585D2B87FD9E00624FB9 /* SoothingUIDemoTests.swift */,
-			);
-			path = SoothingUIDemoTests;
-			sourceTree = "<group>";
-		};
-		849858662B87FD9E00624FB9 /* SoothingUIDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				849858672B87FD9E00624FB9 /* SoothingUIDemoUITests.swift */,
-				849858692B87FD9E00624FB9 /* SoothingUIDemoUITestsLaunchTests.swift */,
-			);
-			path = SoothingUIDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8498585E2B87FD9E00624FB9 /* SoothingUIDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8498586A2B87FD9E00624FB9 /* SoothingUIDemoUITestsLaunchTests.swift in Sources */,
-				849858682B87FD9E00624FB9 /* SoothingUIDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
