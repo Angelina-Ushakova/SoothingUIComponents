@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844151372B912A6900FA824A /* SoothingUIComponentsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 844151362B912A6900FA824A /* SoothingUIComponentsLibrary */; };
 		849858482B87FD9B00624FB9 /* SoothingUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */; };
 		8498584A2B87FD9B00624FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858492B87FD9B00624FB9 /* ContentView.swift */; };
 		8498584C2B87FD9D00624FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584B2B87FD9D00624FB9 /* Assets.xcassets */; };
@@ -35,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8424EA532B87FFE80093FD9F /* SoothingUIComponentsLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SoothingUIComponentsLibrary; path = ../SoothingUIComponentsLibrary; sourceTree = "<group>"; };
 		849858442B87FD9B00624FB9 /* SoothingUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoothingUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoApp.swift; sourceTree = "<group>"; };
 		849858492B87FD9B00624FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844151372B912A6900FA824A /* SoothingUIComponentsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +75,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8424EA512B87FF670093FD9F /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				8424EA532B87FFE80093FD9F /* SoothingUIComponentsLibrary */,
-			);
-			name = Packages;
-			path = ../SoothingUIComponentsLibrary;
-			sourceTree = "<group>";
-		};
 		8498583B2B87FD9B00624FB9 = {
 			isa = PBXGroup;
 			children = (
-				8424EA512B87FF670093FD9F /* Packages */,
 				849858462B87FD9B00624FB9 /* SoothingUIDemo */,
 				8498585C2B87FD9E00624FB9 /* SoothingUIDemoTests */,
 				849858662B87FD9E00624FB9 /* SoothingUIDemoUITests */,
@@ -157,6 +148,9 @@
 			dependencies = (
 			);
 			name = SoothingUIDemo;
+			packageProductDependencies = (
+				844151362B912A6900FA824A /* SoothingUIComponentsLibrary */,
+			);
 			productName = SoothingUIDemo;
 			productReference = 849858442B87FD9B00624FB9 /* SoothingUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 8498583B2B87FD9B00624FB9;
+			packageReferences = (
+				844151352B912A6900FA824A /* XCLocalSwiftPackageReference "../SoothingUIComponentsLibrary" */,
+			);
 			productRefGroup = 849858452B87FD9B00624FB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +595,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		844151352B912A6900FA824A /* XCLocalSwiftPackageReference "../SoothingUIComponentsLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SoothingUIComponentsLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		844151362B912A6900FA824A /* SoothingUIComponentsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoothingUIComponentsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		849858522B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodeld */ = {
