@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  ProgressButtonView.swift .swift
+//  SoothingUIDemo
 //
 //  Created by admin on 15.03.2024.
 //
