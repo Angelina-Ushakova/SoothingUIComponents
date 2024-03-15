@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		841F9D912BA458330052F19A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D902BA458330052F19A /* MenuItem.swift */; };
 		841F9D942BA458E50052F19A /* ProgressButtonView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */; };
+		841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D952BA492760052F19A /* WaveButtonView.swift */; };
 		844151372B912A6900FA824A /* SoothingUIComponentsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 844151362B912A6900FA824A /* SoothingUIComponentsLibrary */; };
 		849858482B87FD9B00624FB9 /* SoothingUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */; };
 		8498584A2B87FD9B00624FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858492B87FD9B00624FB9 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		841F9D902BA458330052F19A /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressButtonView.swift .swift"; sourceTree = "<group>"; };
+		841F9D952BA492760052F19A /* WaveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveButtonView.swift; sourceTree = "<group>"; };
 		849858442B87FD9B00624FB9 /* SoothingUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoothingUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoApp.swift; sourceTree = "<group>"; };
 		849858492B87FD9B00624FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */,
+				841F9D952BA492760052F19A /* WaveButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849858542B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodeld in Sources */,
+				841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */,
 				849EF1652BA4516F00268819 /* MenuView.swift in Sources */,
 				8498584A2B87FD9B00624FB9 /* ContentView.swift in Sources */,
 				841F9D912BA458330052F19A /* MenuItem.swift in Sources */,
