@@ -1,8 +1,13 @@
 //
-//  MenuItem.swift
-//  SoothingUIDemo
-//
-//  Created by admin on 15.03.2024.
+//  Модель для элементов меню
 //
 
-import Foundation
+import SwiftUI
+
+struct MenuItem: Identifiable {
+    var id = UUID()
+    var name: String
+    var image: String
+    var destination: AnyView
+}
+

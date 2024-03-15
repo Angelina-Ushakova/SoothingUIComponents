@@ -11,7 +11,7 @@ import SoothingUIComponentsLibrary
 struct SoothingUIDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
 }

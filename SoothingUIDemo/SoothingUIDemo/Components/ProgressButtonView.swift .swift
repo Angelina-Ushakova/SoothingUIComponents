@@ -1,8 +1,14 @@
 //
-//  ProgressButtonView.swift .swift
-//  SoothingUIDemo
-//
-//  Created by admin on 15.03.2024.
+//  Отдельный View для ProgressButton
 //
 
-import Foundation
+import SwiftUI
+import SoothingUIComponentsLibrary
+
+struct ProgressButtonView: View {
+    var body: some View {
+        ProgressButton(duration: 3, size: 250, color: .pink, action: {})
+        .navigationTitle("Progress Button")
+    }
+}
+
