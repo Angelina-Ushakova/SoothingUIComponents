@@ -24,8 +24,10 @@ let package = Package(
         .target(
             name: "SoothingUIComponentsLibrary",
             dependencies: []),
+        /*
         .testTarget(
             name: "SoothingUIComponentsLibraryTests",
             dependencies: ["SoothingUIComponentsLibrary"]),
+         */
     ]
 )

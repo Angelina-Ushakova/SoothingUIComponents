@@ -10,4 +10,3 @@ struct MenuItem: Identifiable {
     var image: String
     var destination: AnyView
 }
-

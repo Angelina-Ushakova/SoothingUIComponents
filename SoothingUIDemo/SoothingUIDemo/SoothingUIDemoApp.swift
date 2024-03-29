@@ -1,7 +1,5 @@
 //
-//  SoothingUIDemoApp.swift
-//  SoothingUIDemo
-//
+//  Главный файл приложения, определяющий структуру и навигацию.
 //
 
 import SwiftUI

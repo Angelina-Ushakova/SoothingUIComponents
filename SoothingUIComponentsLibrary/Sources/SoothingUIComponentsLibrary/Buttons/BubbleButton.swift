@@ -50,7 +50,7 @@ public struct BubbleButton: View {
                             .overlay(
                                 // Контур пузырька
                                 Circle()
-                                    .stroke(color, lineWidth: 4)
+                                    .stroke(color, lineWidth: size / 55)
                                     .scaleEffect(isPopped ? 1.2 : 1)
                                     .opacity(isPopped ? 0 : 1)
                             )

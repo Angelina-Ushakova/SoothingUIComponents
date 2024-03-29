@@ -57,24 +57,23 @@ public struct ProgressButton: View {
         Button(action: startLoading) {
             ZStack {
                 Circle()
-                    .stroke(lineWidth: 20)
+                    .stroke(lineWidth: size / 10)
                     .opacity(0.3)
                     .foregroundColor(color)
                 
                 Circle()
                     .trim(from: 0.0, to: progress)
-                    .stroke(style: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round))
+                    .stroke(style: StrokeStyle(lineWidth: size / 10, lineCap: .round, lineJoin: .round))
                     .foregroundColor(color)
                     .rotationEffect(Angle(degrees: 270))
-                // Убрать анимацию отсюда и добавить её непосредственно к изменению прогресса
                 
                 if showCheckmark {
                     Image(systemName: "checkmark")
-                        .font(.largeTitle)
+                        .font(.system(size: size / 4))
                         .foregroundColor(color)
                 } else {
                     Text(progressText)
-                        .font(.title)
+                        .font(.system(size: size / 5))
                         .foregroundColor(color)
                 }
             }
