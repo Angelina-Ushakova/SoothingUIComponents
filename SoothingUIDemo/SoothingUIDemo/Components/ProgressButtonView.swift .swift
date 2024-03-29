@@ -11,4 +11,3 @@ struct ProgressButtonView: View {
         .navigationTitle("Progress Button")
     }
 }
-
