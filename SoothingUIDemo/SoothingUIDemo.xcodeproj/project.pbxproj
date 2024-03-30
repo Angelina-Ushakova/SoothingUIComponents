@@ -13,6 +13,7 @@
 		841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D952BA492760052F19A /* WaveButtonView.swift */; };
 		844151372B912A6900FA824A /* SoothingUIComponentsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 844151362B912A6900FA824A /* SoothingUIComponentsLibrary */; };
 		847AA25D2BB86F4A00644625 /* RotatingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA25C2BB86F4A00644625 /* RotatingCirclesView.swift */; };
+		847AA25F2BB88D9800644625 /* HarmonySpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */; };
 		849858482B87FD9B00624FB9 /* SoothingUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */; };
 		8498584C2B87FD9D00624FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584B2B87FD9D00624FB9 /* Assets.xcassets */; };
 		8498584F2B87FD9D00624FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584E2B87FD9D00624FB9 /* Preview Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressButtonView.swift .swift"; sourceTree = "<group>"; };
 		841F9D952BA492760052F19A /* WaveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveButtonView.swift; sourceTree = "<group>"; };
 		847AA25C2BB86F4A00644625 /* RotatingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCirclesView.swift; sourceTree = "<group>"; };
+		847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySpinnerView.swift; sourceTree = "<group>"; };
 		849858442B87FD9B00624FB9 /* SoothingUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoothingUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoApp.swift; sourceTree = "<group>"; };
 		8498584B2B87FD9D00624FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				8412023B2BACD1A10047B35F /* RotatingGradientCircleView.swift */,
 				84F114202BB5E7FA00727CCD /* BubbleButtonView.swift */,
 				847AA25C2BB86F4A00644625 /* RotatingCirclesView.swift */,
+				847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */,
 				849EF1652BA4516F00268819 /* MenuView.swift in Sources */,
 				841F9D912BA458330052F19A /* MenuItem.swift in Sources */,
+				847AA25F2BB88D9800644625 /* HarmonySpinnerView.swift in Sources */,
 				841F9D942BA458E50052F19A /* ProgressButtonView.swift .swift in Sources */,
 				849EF1672BA451A600268819 /* MenuViewModel.swift in Sources */,
 				84F114212BB5E7FA00727CCD /* BubbleButtonView.swift in Sources */,
