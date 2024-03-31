@@ -13,7 +13,8 @@ class MenuViewModel: ObservableObject {
         MenuItem(name: "Bubble Button", image: "BubbleButton", destination: AnyView(BubbleButtonView())),
         MenuItem(name: "Rotating Circles", image: "RotatingCircles", destination: AnyView(RotatingCirclesView())),
         MenuItem(name: "Harmony Spinner", image: "HarmonySpinner", destination: AnyView(HarmonySpinnerView())),
-        MenuItem(name: "Like Button", image: "LikeButton", destination: AnyView(LikeButtonView()))
+        MenuItem(name: "Like Button", image: "LikeButton", destination: AnyView(LikeButtonView())),
+        MenuItem(name: "Navigation Bar", image: "NavigationBar", destination: AnyView(NavigationBarView()))
         // Другие элементы будут здесь
     ]
 }
