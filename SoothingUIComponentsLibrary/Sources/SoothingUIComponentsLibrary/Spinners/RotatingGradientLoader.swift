@@ -13,22 +13,28 @@ import SwiftUI
 /// RotatingGradientLoader(mainCircleSize: 200, rotationLineSize: 180, capsuleWidth: 5, gradientColors: [.blue, .purple])
 /// ```
 ///
-/// - Parameters:
-///   - mainCircleSize: Размер основного круга.
-///   - rotationLineSize: Размер вращающегося круга с чёрточками.
-///   - capsuleWidth: Ширина каждой анимированной полоски (капсулы).
-///   - gradientColors: Массив цветов для градиента.
+/// - Requires: `SwiftUI`
 public struct RotatingGradientLoader: View {
-    @State private var rotationDegrees: Double = 0  // Начальное значение для вращения
-    @State private var scale: CGFloat = 0.5  // Начальное значение для масштаба
+    /// Начальное значение угла вращения.
+    @State private var rotationDegrees: Double = 0
+    /// Начальное значение масштаба для анимации.
+    @State private var scale: CGFloat = 0.5
 
-    // Параметры для настройки вида элемента
+    /// Размер основного круга.
     var mainCircleSize: CGFloat
+    /// Размер вращающегося круга с чёрточками.
     var rotationLineSize: CGFloat
+    /// Ширина каждой анимированной полоски (капсулы).
     var capsuleWidth: CGFloat
+    /// Массив цветов для градиента.
     var gradientColors: [Color]
 
-    /// Инициализатор для создания вью с заданными параметрами.
+    /// Инициализатор для `RotatingGradientLoader`.
+    /// - Parameters:
+    ///   - mainCircleSize: Размер основного круга.
+    ///   - rotationLineSize: Размер вращающегося круга с чёрточками.
+    ///   - capsuleWidth: Ширина каждой анимированной полоски (капсулы).
+    ///   - gradientColors: Массив цветов для градиента.
     public init(mainCircleSize: CGFloat, rotationLineSize: CGFloat, capsuleWidth: CGFloat, gradientColors: [Color]) {
         self.mainCircleSize = mainCircleSize
         self.rotationLineSize = rotationLineSize

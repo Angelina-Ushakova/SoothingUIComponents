@@ -12,7 +12,8 @@ class MenuViewModel: ObservableObject {
         MenuItem(name: "Rotating Gradient Loader", image: "RotatingGradientLoader", destination: AnyView(RotatingGradientLoaderView())),
         MenuItem(name: "Bubble Button", image: "BubbleButton", destination: AnyView(BubbleButtonView())),
         MenuItem(name: "Rotating Circles", image: "RotatingCircles", destination: AnyView(RotatingCirclesView())),
-        MenuItem(name: "Harmony Spinner", image: "HarmonySpinner", destination: AnyView(HarmonySpinnerView()))
+        MenuItem(name: "Harmony Spinner", image: "HarmonySpinner", destination: AnyView(HarmonySpinnerView())),
+        MenuItem(name: "Like Button", image: "LikeButton", destination: AnyView(LikeButtonView()))
         // Другие элементы будут здесь
     ]
 }
