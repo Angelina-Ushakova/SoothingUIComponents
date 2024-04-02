@@ -23,7 +23,12 @@ public struct NavigationBar: View {
     @State private var selectedIndex = 0
 
     private let paddingRatio: CGFloat = 0.15
-
+    
+    /// Инициализатор для `NavigationBar`.
+    /// - Parameters:
+    ///   - width: Ширина навигационной панели. Определяет общую ширину элемента управления.
+    ///   - height: Высота навигационной панели. Определяет общую высоту элемента управления.
+    ///   - items: Массив элементов `NavigationBarItem`, которые будут отображаться в навигационной панели.
     public init(width: CGFloat, height: CGFloat, items: [NavigationBarItem]) {
         self.width = width
         self.height = height

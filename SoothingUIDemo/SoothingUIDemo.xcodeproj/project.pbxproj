@@ -16,6 +16,10 @@
 		847AA25F2BB88D9800644625 /* HarmonySpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */; };
 		847AA2612BB9BD1100644625 /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA2602BB9BD1100644625 /* LikeButtonView.swift */; };
 		847AA2632BB9DA4800644625 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA2622BB9DA4800644625 /* NavigationBarView.swift */; };
+		847AA2692BBAE61500644625 /* SandglassLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA2682BBAE61500644625 /* SandglassLoaderView.swift */; };
+		847AA26E2BBC2B7300644625 /* EternalLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA26D2BBC2B7300644625 /* EternalLoaderView.swift */; };
+		847AA2762BBC2C6F00644625 /* RotatingLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA2752BBC2C6F00644625 /* RotatingLoaderView.swift */; };
+		847AA27E2BBC370100644625 /* SwingLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA27D2BBC370100644625 /* SwingLoaderView.swift */; };
 		849858482B87FD9B00624FB9 /* SoothingUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */; };
 		8498584C2B87FD9D00624FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584B2B87FD9D00624FB9 /* Assets.xcassets */; };
 		8498584F2B87FD9D00624FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498584E2B87FD9D00624FB9 /* Preview Assets.xcassets */; };
@@ -51,6 +55,10 @@
 		847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySpinnerView.swift; sourceTree = "<group>"; };
 		847AA2602BB9BD1100644625 /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
 		847AA2622BB9DA4800644625 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		847AA2682BBAE61500644625 /* SandglassLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandglassLoaderView.swift; sourceTree = "<group>"; };
+		847AA26D2BBC2B7300644625 /* EternalLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EternalLoaderView.swift; sourceTree = "<group>"; };
+		847AA2752BBC2C6F00644625 /* RotatingLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingLoaderView.swift; sourceTree = "<group>"; };
+		847AA27D2BBC370100644625 /* SwingLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingLoaderView.swift; sourceTree = "<group>"; };
 		849858442B87FD9B00624FB9 /* SoothingUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoothingUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849858472B87FD9B00624FB9 /* SoothingUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingUIDemoApp.swift; sourceTree = "<group>"; };
 		8498584B2B87FD9D00624FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +100,8 @@
 		841F9D922BA458BC0052F19A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				847AA2752BBC2C6F00644625 /* RotatingLoaderView.swift */,
+				847AA26D2BBC2B7300644625 /* EternalLoaderView.swift */,
 				841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */,
 				841F9D952BA492760052F19A /* WaveButtonView.swift */,
 				8412023B2BACD1A10047B35F /* RotatingGradientCircleView.swift */,
@@ -100,6 +110,8 @@
 				847AA25E2BB88D9800644625 /* HarmonySpinnerView.swift */,
 				847AA2602BB9BD1100644625 /* LikeButtonView.swift */,
 				847AA2622BB9DA4800644625 /* NavigationBarView.swift */,
+				847AA2682BBAE61500644625 /* SandglassLoaderView.swift */,
+				847AA27D2BBC370100644625 /* SwingLoaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -281,19 +293,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847AA2692BBAE61500644625 /* SandglassLoaderView.swift in Sources */,
 				847AA25D2BB86F4A00644625 /* RotatingCirclesView.swift in Sources */,
 				8412023C2BACD1A10047B35F /* RotatingGradientCircleView.swift in Sources */,
 				849858542B87FD9D00624FB9 /* SoothingUIDemo.xcdatamodeld in Sources */,
 				847AA2612BB9BD1100644625 /* LikeButtonView.swift in Sources */,
 				841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */,
 				849EF1652BA4516F00268819 /* MenuView.swift in Sources */,
+				847AA27E2BBC370100644625 /* SwingLoaderView.swift in Sources */,
 				847AA2632BB9DA4800644625 /* NavigationBarView.swift in Sources */,
 				841F9D912BA458330052F19A /* MenuItem.swift in Sources */,
 				847AA25F2BB88D9800644625 /* HarmonySpinnerView.swift in Sources */,
 				841F9D942BA458E50052F19A /* ProgressButtonView.swift .swift in Sources */,
 				849EF1672BA451A600268819 /* MenuViewModel.swift in Sources */,
 				84F114212BB5E7FA00727CCD /* BubbleButtonView.swift in Sources */,
+				847AA2762BBC2C6F00644625 /* RotatingLoaderView.swift in Sources */,
 				849858482B87FD9B00624FB9 /* SoothingUIDemoApp.swift in Sources */,
+				847AA26E2BBC2B7300644625 /* EternalLoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

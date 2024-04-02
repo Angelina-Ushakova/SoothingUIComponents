@@ -14,7 +14,11 @@ class MenuViewModel: ObservableObject {
         MenuItem(name: "Rotating Circles", image: "RotatingCircles", destination: AnyView(RotatingCirclesView())),
         MenuItem(name: "Harmony Spinner", image: "HarmonySpinner", destination: AnyView(HarmonySpinnerView())),
         MenuItem(name: "Like Button", image: "LikeButton", destination: AnyView(LikeButtonView())),
-        MenuItem(name: "Navigation Bar", image: "NavigationBar", destination: AnyView(NavigationBarView()))
+        MenuItem(name: "Navigation Bar", image: "NavigationBar", destination: AnyView(NavigationBarView())),
+        MenuItem(name: "Sandglass Loader", image: "SandglassLoader", destination: AnyView(SandglassLoaderView())),
+        MenuItem(name: "Swing Loader", image: "SwingLoader", destination: AnyView(SwingLoaderView())),
+        MenuItem(name: "Eternal Loader", image: "EternalLoader", destination: AnyView(EternalLoaderView())),
+        MenuItem(name: "Rotating Loader", image: "RotatingLoader", destination: AnyView(RotatingLoaderView()))
         // Другие элементы будут здесь
     ]
 }
