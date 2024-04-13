@@ -18,7 +18,8 @@ class MenuViewModel: ObservableObject {
         MenuItem(name: "Sandglass Loader", image: "SandglassLoader", destination: AnyView(SandglassLoaderView())),
         MenuItem(name: "Swing Loader", image: "SwingLoader", destination: AnyView(SwingLoaderView())),
         MenuItem(name: "Eternal Loader", image: "EternalLoader", destination: AnyView(EternalLoaderView())),
-        MenuItem(name: "Rotating Loader", image: "RotatingLoader", destination: AnyView(RotatingLoaderView()))
+        MenuItem(name: "Rotating Loader", image: "RotatingLoader", destination: AnyView(RotatingLoaderView())),
+        MenuItem(name: "Ghost Loader", image: "GhostLoader", destination: AnyView(GhostLoaderView()))
         // Другие элементы будут здесь
     ]
 }

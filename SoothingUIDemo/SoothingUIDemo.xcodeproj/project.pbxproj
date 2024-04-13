@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840DD7A32BCB275D00BC6F29 /* GhostLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DD7A22BCB275D00BC6F29 /* GhostLoaderView.swift */; };
 		8412023C2BACD1A10047B35F /* RotatingGradientCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412023B2BACD1A10047B35F /* RotatingGradientCircleView.swift */; };
 		841F9D912BA458330052F19A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D902BA458330052F19A /* MenuItem.swift */; };
 		841F9D942BA458E50052F19A /* ProgressButtonView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840DD7A22BCB275D00BC6F29 /* GhostLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostLoaderView.swift; sourceTree = "<group>"; };
 		8412023B2BACD1A10047B35F /* RotatingGradientCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGradientCircleView.swift; sourceTree = "<group>"; };
 		841F9D902BA458330052F19A /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		841F9D932BA458E50052F19A /* ProgressButtonView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressButtonView.swift .swift"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				847AA2622BB9DA4800644625 /* NavigationBarView.swift */,
 				847AA2682BBAE61500644625 /* SandglassLoaderView.swift */,
 				847AA27D2BBC370100644625 /* SwingLoaderView.swift */,
+				840DD7A22BCB275D00BC6F29 /* GhostLoaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				847AA2612BB9BD1100644625 /* LikeButtonView.swift in Sources */,
 				841F9D962BA492760052F19A /* WaveButtonView.swift in Sources */,
 				849EF1652BA4516F00268819 /* MenuView.swift in Sources */,
+				840DD7A32BCB275D00BC6F29 /* GhostLoaderView.swift in Sources */,
 				847AA27E2BBC370100644625 /* SwingLoaderView.swift in Sources */,
 				847AA2632BB9DA4800644625 /* NavigationBarView.swift in Sources */,
 				841F9D912BA458330052F19A /* MenuItem.swift in Sources */,
